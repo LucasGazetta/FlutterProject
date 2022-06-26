@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class RightBar extends StatelessWidget {
   final double barWidth;
 
-  const RightBar({Key key, required this.barWidth}) : super(key: key);
+  const RightBar({Key? key, required this.barWidth}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
